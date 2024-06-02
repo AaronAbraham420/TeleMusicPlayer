@@ -18,10 +18,10 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 from config import config
 from core.queue import Queue
-from pyrogram.types import Message
+from hydrogram.types import Message
 from typing import Any, Dict, Union
-from pyrogram.raw.functions.channels import GetFullChannel
-from pyrogram.raw.functions.phone import EditGroupCallTitle
+from hydrogram.raw.functions.channels import GetFullChannel
+from hydrogram.raw.functions.phone import EditGroupCallTitle
 
 
 GROUPS: Dict[int, Dict[str, Any]] = {}

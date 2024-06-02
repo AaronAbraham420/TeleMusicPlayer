@@ -20,13 +20,13 @@ import os
 from typing import Union
 from config import config
 from core.song import Song
-from pyrogram import Client
+from hydrogram import Client
 from yt_dlp import YoutubeDL
 from core.funcs import generate_cover
 from pytgcalls import PyTgCalls, StreamType
 from core.groups import get_group, set_title
-from pyrogram.raw.types import InputPeerChannel
-from pyrogram.raw.functions.phone import CreateGroupCall
+from hydrogram.raw.types import InputPeerChannel
+from hydrogram.raw.functions.phone import CreateGroupCall
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.exceptions import GroupCallNotFound, NoActiveGroupCall
 from pytgcalls.types.input_stream.quality import (

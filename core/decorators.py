@@ -20,14 +20,14 @@ import time
 from lang import load
 from config import config
 from core.stream import app
-from pyrogram import Client
+from hydrogram import Client
 from datetime import datetime
 from pytgcalls import PyTgCalls
 from traceback import format_exc
-from pyrogram.types import Message
+from hydrogram.types import Message
 from pytgcalls.types import Update
 from typing import Union, Callable
-from pyrogram.errors import UserAlreadyParticipant
+from hydrogram.errors import UserAlreadyParticipant
 from core.groups import get_group, all_groups, set_default
 
 

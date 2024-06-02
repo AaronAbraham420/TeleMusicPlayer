@@ -29,7 +29,7 @@ from core.song import Song
 from pytube import Playlist
 from spotipy import Spotify
 from core.groups import get_group
-from pyrogram.types import Message
+from hydrogram.types import Message
 from PIL import Image, ImageDraw, ImageFont
 from youtubesearchpython import VideosSearch
 from typing import Tuple, Optional, AsyncIterator

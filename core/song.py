@@ -22,7 +22,7 @@ from shlex import quote
 from subprocess import PIPE
 from datetime import timedelta
 from aiohttp import ClientSession
-from pyrogram.types import User, Message
+from hydrogram.types import User, Message
 from typing import Dict, Tuple, Union, Optional
 
 
