@@ -23,7 +23,7 @@ from core.song import Song
 from hydrogram import Client
 from yt_dlp import YoutubeDL
 from core.funcs import generate_cover
-from pytgcalls import PyTgCalls, StreamType
+from pytgcalls import PyTgCalls
 from core.groups import get_group, set_title
 from hydrogram.raw.types import InputPeerChannel
 from hydrogram.raw.functions.phone import CreateGroupCall
