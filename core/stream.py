@@ -27,9 +27,9 @@ from pytgcalls import PyTgCalls
 from core.groups import get_group, set_title
 from hydrogram.raw.types import InputPeerChannel
 from hydrogram.raw.functions.phone import CreateGroupCall
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
+from pytgcalls.types.Stream import AudioPiped, AudioVideoPiped
 from pytgcalls.exceptions import GroupCallNotFound, NoActiveGroupCall
-from pytgcalls.types.input_stream.quality import (
+from pytgcalls.types.Stream.quality import (
     LowQualityAudio, LowQualityVideo, HighQualityAudio, HighQualityVideo,
     MediumQualityAudio, MediumQualityVideo)
 
