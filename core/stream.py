@@ -23,13 +23,13 @@ from core.song import Song
 from hydrogram import Client
 from yt_dlp import YoutubeDL
 from core.funcs import generate_cover
-from pytgcalls import PyTgCalls
+from pytgcalls import PyTgCalls, Stream
 from core.groups import get_group, set_title
 from hydrogram.raw.types import InputPeerChannel
 from hydrogram.raw.functions.phone import CreateGroupCall
-from pytgcalls.types.Stream import AudioPiped, AudioVideoPiped
+from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from pytgcalls.exceptions import GroupCallNotFound, NoActiveGroupCall
-from pytgcalls.types.Stream.quality import (
+from pytgcalls.types.input_stream.quality import (
     LowQualityAudio, LowQualityVideo, HighQualityAudio, HighQualityVideo,
     MediumQualityAudio, MediumQualityVideo)
 
